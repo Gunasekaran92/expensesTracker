@@ -26,7 +26,7 @@ export default function GetMetricData() {
 
     useEffect(() => {
 
-        fetch('http://test-app.canadacentral.azurecontainer.io/metric')
+        fetch('https://exp-app.azurewebsites.net/metric')
             .then(data1 => data1.json())
             .then(items => {
 
@@ -42,7 +42,7 @@ export default function GetMetricData() {
 
     useEffect(() => {
 
-        fetch('http://test-app.canadacentral.azurecontainer.io/metricO')
+        fetch('https://exp-app.azurewebsites.net/metricO')
             .then(data1 => data1.json())
             .then(items => {
 

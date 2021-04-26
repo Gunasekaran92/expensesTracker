@@ -1,5 +1,5 @@
 async function getDonut() {
-    return await fetch('http://test-app.canadacentral.azurecontainer.io/donut')
+    return await fetch('https://exp-app.azurewebsites.net//donut')
     .then(data1 => data1.json())
 }
 
